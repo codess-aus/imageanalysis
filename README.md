@@ -12,7 +12,7 @@ The Analyze API can do many different operations other than generate image tags.
 - [Samples](https://learn.microsoft.com/en-us/samples/browse/?products=azure&terms=computer-vision)
 
 
-Prerequisites
+## Prerequisites
 An Azure subscription - Create one for free
 
 Python 3.x
@@ -27,17 +27,21 @@ In this example, write your credentials to environment variables on the local ma
 
 Go to the Azure portal. If the resource you created in the Prerequisites section deployed successfully, select Go to resource under Next Steps. You can find your key and endpoint under Resource Management in the Keys and Endpoint page. Your resource key isn't the same as your Azure subscription ID.
 
- Tip
+### Tip
 
 Don't include the key directly in your code, and never post it publicly. See the Azure AI services security article for more authentication options like Azure Key Vault.
 
-Analyze image
+## Analyze image
 Install the client library.
 
 You can install the client library with:
 
+```bash
 pip install --upgrade azure-cognitiveservices-vision-computervision
+```
 
 Also install the Pillow library.
 
+```bash
 pip install pillow
+```
