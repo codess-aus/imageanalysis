@@ -34,7 +34,7 @@ These variables are shared by several examples
 # Detect domain-specific content, Detect image types, Detect objects
 images_folder = os.path.join (os.path.dirname(os.path.abspath(__file__)), "images")
 #remote_image_url = "https://raw.githubusercontent.com/Azure-Samples/cognitive-services-sample-data-files/master/ComputerVision/Images/landmark.jpg"
-remote_image_url = "https://raw.githubusercontent.com/codess-aus/imageanalysis/main/images/circus.png"
+remote_image_url = "https://raw.githubusercontent.com/codess-aus/imageanalysis/main/images/things.jpg"
 
 '''
 END - Quickstart variables
